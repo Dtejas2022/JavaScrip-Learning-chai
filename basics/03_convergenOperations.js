@@ -21,7 +21,7 @@ let is_loggedIn = 1
 
 let booleanValue = Boolean(is_loggedIn)
 
-console.log(booleanValue);
+// console.log(booleanValue);
 
 
 //1 => true; 0 => false
@@ -33,8 +33,8 @@ let number = 14
 
 let stringNum = String(number)
 
-console.log(stringNum)
-console.log(typeof stringNum)
+// console.log(stringNum)
+// console.log(typeof stringNum)
 
 
 // ****************************Operations**************************
@@ -54,13 +54,23 @@ let str1 = "tejas"
 let str2 = " Dotkar"
 
 let str3 = str1 + str2
-console.log(str3)
+// console.log(str3)
 
 // console.log(2 + "3");
 // console.log(2 + "3");
 // console.log("2" + 2 + 3);
 // console.log(2 + 2 + "3");
 
-console.log(true)
-console.log(+true)
+// console.log(true)
+// console.log(+true)
 
+let num1, num2, num3
+
+num1=num2=num3=4
+
+let gamecounter = 100
+gamecounter++;
+
+// ++gamecounter; 
+
+console.log(gamecounter);
