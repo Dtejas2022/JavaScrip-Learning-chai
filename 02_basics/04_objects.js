@@ -37,7 +37,7 @@ const obj2 = {
 // const obj3 = Object.assign({},obj1,obj2)  //combine two objects
 
 const obj3 = {...obj1, ...obj2}  //eassy way to spred
-console.log(obj3);
+// console.log(obj3);
 
 
 const users = [
@@ -57,10 +57,23 @@ const users = [
 
 users[1].email
 
-console.log(appUser);
+// console.log(appUser);
 
-console.log(Object.keys(appUser));
-console.log(Object.values(appUser));
-console.log(Object.entries(appUser));
+// console.log(Object.keys(appUser));
+// console.log(Object.values(appUser));
+// console.log(Object.entries(appUser));
 
-console.log(appUser.hasOwnProperty('isLoggedIn'));
+// console.log(appUser.hasOwnProperty('isLoggedIn'));
+
+const course = {
+    Cname : 'js',
+    price: 999,
+    Cinstructor : 'hitesh',
+}
+
+// console.log(course.Cinstructor);
+//destructuring
+const {Cinstructor:instructor} = course 
+
+console.log(instructor);
+
